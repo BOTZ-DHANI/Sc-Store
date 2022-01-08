@@ -417,39 +417,16 @@ menu =
 `*${ucapanWaktu} @${sender.split('@')[0]}*
 
 
-*「 𝗚𝗥𝗨𝗣 𝗠𝗘𝗡𝗨 」*
-
-⊛ ${prefix}antilink *on / off*
-⊛ ${prefix}antivirtex *on / off*
-⊛ ${prefix}welcome *on / off*
-⊛ ${prefix}group *buka / tutup*
-⊛ ${prefix}promote *@tag / reply*
-⊛ ${prefix}demote *@tag / reply*
-⊛ ${prefix}add *628xx*
-⊛ ${prefix}kick *@tag / reply*
-⊛ ${prefix}setpp *reply / cap*
-⊛ ${prefix}setdesc *teks*
-⊛ ${prefix}setname *teks*
-⊛ ${prefix}hidetag *teks*
-⊛ ${prefix}linkgrup
-⊛ ${prefix}infogrup
-⊛ ${prefix}listonline
-⊛ ${prefix}resetlinkgrup
-
-
-*「 𝗦𝗧𝗢𝗥𝗘 𝗠𝗘𝗡𝗨 」*
+*「 CREYZI STORE 」*
 
 ⊛ ${prefix}proses
 ⊛ ${prefix}done
 ⊛ ${prefix}store
-⊛ ${prefix}masukandata
 ⊛ ${prefix}payment
-⊛ ${prefix}dmff
-⊛ ${prefix}dmml
+⊛ ${prefix}webp
+⊛ ${prefix}cpanel
 ⊛ ${prefix}ucpubg
-⊛ ${prefix}cod
-⊛ ${prefix}sausageman
-⊛ ${prefix}jasher
+⊛ ${prefix}mwhm
 
 
 *「 𝗢𝗪𝗡𝗘𝗥 𝗠𝗘𝗡𝗨 」*
@@ -465,8 +442,8 @@ break
 
 case 'store':
                list = []
-               listmenu = [`masukandata`,`dmff`,`dmml`,`ucpubg`,`cod`,`sausageman`,`jasher`,`payment`]
-               listmenuu = [`ᴍᴀsᴜᴋᴀɴ ᴅᴀᴛᴀ`,`ᴅɪᴀᴍᴏɴᴅ ғʀᴇᴇ ғɪʀᴇ`,`ᴅɪᴀᴍᴏɴᴅ ᴍᴏʙɪʟᴇ ʟᴇɢᴇɴᴅ`,`ᴜᴄ ᴘᴜʙɢ`,`ᴄᴀʟʟ ᴏғ ᴅᴜᴛʏ ᴍᴏʙɪʟᴇ`,`sᴀᴜsᴀɢᴇ ᴍᴀɴ`,`ᴊᴀsᴀ sʜᴀʀᴇ`,`ᴘᴀʏᴍᴇɴᴛ`]
+               listmenu = [`masukandata`,`webp`,`cpanel`,`whm`,`mwhm`,`payment`]
+               listmenuu = [`ᴍᴀsᴜᴋᴀɴ ᴅᴀᴛᴀ`,`ʜᴀʀɢᴀ ᴡᴇʙ ᴩʜɪꜱɪɴɢ`,`ʜᴀʀɢᴀ ᴄᴩᴀɴᴇʟ`,`ʜᴀʀɢᴀ ᴡʜᴍ`,`ʜᴀʀɢᴀ ᴍᴡʜᴍ`,`ʜᴀʀɢᴀ ᴅᴏᴍᴀɪɴ`,`ʜᴀʀɢᴀ ꜱᴄʀɪᴩᴛ ᴀɴᴛɪ ᴄᴜʀʟ/ꜱ2ᴍ`,`ᴘᴀʏᴍᴇɴᴛ`]
                nombor = 1
                startnum = 0
                for (let x of listmenu) {
@@ -507,56 +484,16 @@ _All Trx No Reff Jadi Barang Tidak Bisa  Di Kembalikan Karna Sudah Bilang Done !
 reply(menu)
 break
 
-case 'masukandata':
-menu =`*${ucapanWaktu} @${sender.split('@')[0]}*
-*Sebelum lanjut, Mohon diisi dulu !!*
-
-
-*𖣘 ɴᴀᴍᴀ :*
-*𖣘 ɪᴅ :*
-*𖣘 ɴᴏᴍɪɴᴀʟ :*
-*𖣘 ʜᴀʀɢᴀ ᴅɪᴀᴍᴏɴᴅ :*`
-teks =`*Pastikan Format Benar !!*
-*Jika Salah Isi Formot Maka Diamond Gak Masuk*
-*Kami tidak akan bertanggung jawab !!*
-*Jika Sudah Selesai Isi Format Harap Kirim Ke Owner !!*
-*Terima kasih*
-
-${tanggal}`
-Dhani.sendMessage(from, { contentText: `${menu}`, footerText: `${teks}`, buttons: [{ buttonId: `${prefix}payment`, buttonText: { displayText: 'ʙᴀʏᴀʀ' }, type: 1 },{ buttonId: `${prefix}owner`, buttonText: { displayText: 'ᴏᴡɴᴇʀ' }, type: 1 } ], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', jpegThumbnail: fakeimage, contextInfo: {mentionedJid: [sender]}}}, 'buttonsMessage')
-break
-
-case 'dmff':
-case 'diamondfreefire':
+case 'webp':
+case 'web phising':
 gambar = fs.readFileSync('./media/qr.jpg')
-menunya = `*「 DIAMOND FREEFIRE 」*
+menunya = `*「 WEB PHISING ALL GAME 」*
 
-• *12 DIAMOND = 2.000*
-• *20 DIAMOND = 3.000*
-• *50 DIAMOND = 7.000*
-• *70 DIAMOND = 10.000*
-• *100 DIAMOND = 14.000*
-• *140 DIAMOND = 19.000*
-• *150 DIAMOND = 20.000*
-• *210 DIAMOND = 28.000*
-• *280 DIAMOND = 37.000*
-• *355 DIAMOND = 47.000*
-• *425 DIAMOND = 56.000*
-• *500 DIAMOND = 65.000*
-• *635 DIAMOND = 83.000*
-• *720 DIAMOND = 92.000*
-• *1.075 DIAMOND = 138.000*
-• *2.000 DIAMOND = 251.000*
-• *3.440 DIAMOND = 434.000*
-• *4.000 DIAMOND = 500.000*
-• *6.000 DIAMOND = 750.000*
-• *7.290 DIAMOND = 918.000*
-• *8.010 DIAMOND = 1.167.600*
-
-*「 Member Ship 」*
-
-• *MM = Rp 29.000*
-• *MB = Rp 140.000*`
+• *0× Garansi = Rp. 10.000*
+• *1× Garansi = Rp. 15.000*
+• *2× Garansi = Rp. 20.000*
+• *3× Garansi = Rp. 25.000*
+• *4× Garansi = Rp. 30.000*
 teks =
 `「 ${botname} 」\n*${tanggal}*`
 but = [
@@ -566,33 +503,15 @@ but = [
         sendButImage(from, menunya, teks, gambar, but)
 break
 
-case 'dmml':
-case 'diamondmobilelegend':
+case 'cpanel':
+case 'cpanelhosting':
 gambar = fs.readFileSync('./media/qr.jpg')
-menunya = `*「 DIAMOND MOBA 」*
+menunya = `*「 HOSTING CPANEL 」*
 
-• *5 DIAMOND = 2.000*
-• *12 DIAMOND = 4.000*
-• *19 DIAMOND = 6.000*
-• *28 DIAMOND = 9.000*
-• *36 DIAMOND = 11.000*
-• *86 DIAMOND = 21.000*
-• *172 DIAMOND = 41.000*
-• *257 DIAMOND = 61.000*
-• *343 DIAMOND = 81.000*
-• *429 DIAMOND = 102.000*
-• *514 DIAMOND = 122.000*
-• *600 DIAMOND = 142.000*
-• *706 DIAMOND = 163.000*
-• *878 DIAMOND = 204.000*
-• *963 DIAMOND = 224.000*
-• *1.049 DIAMOND = 244.000*
-
-*「 Starlight Member 」*
-
-• *SM = 134.000*
-• *TP = 134.000*
-• *SMP = 305.000*`
+• *Cpanel Mini = Rp. 10.000*
+• *Cpanel Medium = Rp. 15.000*
+• *Cpanel Ekstra = Rp. 20.000*
+• *Cpanel Super = Rp. 25.000*
 teks =
 `「 ${botname} 」\n*${tanggal}*`
 but = [
@@ -602,21 +521,14 @@ but = [
         sendButImage(from, menunya, teks, gambar, but)
 break
 
-case 'ucpubg':
+case 'whm':
 gambar = fs.readFileSync('./media/qr.jpg')
-menunya = `*「 UC PUBG 」*
+menunya = `*「 HOSTING WHM 」*
 
-• *35 UC = 8.000*
-• *50 UC = 4.000*
-• *70 UC = 6.000*
-• *150 UC = 9.000*
-• *250 UC = 11.000*
-• *500 UC = 21.000*
-• *700 UC = 41.000*
-• *1.000 UC = 61.000*
-• *1.250 UC = 81.000*
-• *1.750 UC = 102.000*
-• *2.500 UC = 122.000*`
+• *Whm Mini : Rp. 30.000*
+• *Whm Medium : Rp. 40.000*
+• *Whm Extra : Rp. 50.000*
+• *Whm Super : Rp. 60.000*
 teks =
 `「 ${botname} 」\n*${tanggal}*`
 but = [
@@ -626,20 +538,16 @@ but = [
         sendButImage(from, menunya, teks, gambar, but)
 break
 
-case 'callofdutymobile':
-case 'codm':
-case 'cod':
+case 'hostingmwhm':
+case 'mwhmhost':
+case 'mwhm':
 gambar = fs.readFileSync('./media/qr.jpg')
-menunya = `*「 Call of Duty Mobile 」*
+menunya = `*「 HOSTING MWHM 」*
 
-• *62 CP = 10.000*
-• *127 CP = 20.000*
-• *317 CP = 49.000*
-• *634 CP = 97.000*
-• *1.373 CP = 193.000*
-• *2.059 CP = 290.000*
-• *3.564 CP = 483.000*
-• *7.656 UC = 964.000*`
+• *Mwhm Mini : Rp. 80.000*
+• *Mwhm Medium : Rp. 100.000*
+• *Mwhm Extra : Rp. 130.000*
+• *Mwhm Super : Rp. 150.000*
 teks =
 `「 ${botname} 」\n*${tanggal}*`
 but = [
@@ -649,78 +557,12 @@ but = [
         sendButImage(from, menunya, teks, gambar, but)
 break
 
-case 'sausageman':
+case 'scriptphising':
 gambar = fs.readFileSync('./media/qr.jpg')
-menunya = `*「 SAUSAGE MAN 」*
+menunya = `*「 SCRIPT PHISING 」*
 
-• *60 Candy = 8.000*
-• *180 Candy = 4.000*
-• *300 + 16 Candy = 6.000*
-• *680 + 38 Candy = 9.000*
-• *1.280 + 88 Candy = 11.000*
-• *1.980 + 138 Candy = 21.000*`
-teks =
-`「 ${botname} 」\n*${tanggal}*`
-but = [
-          { buttonId: `${prefix}payment`, buttonText: { displayText: 'ᴘᴀʏᴍᴇɴᴛ' }, type: 1 },
-          { buttonId: `${prefix}owner`, buttonText: { displayText: 'ᴏᴡɴᴇʀ' }, type: 1 }
-        ]
-        sendButImage(from, menunya, teks, gambar, but)
-break
-
-case 'jasasher':
-case 'jasher':
-gambar = fs.readFileSync('./media/qr.jpg')
-menunya = `🇯‌‌🇦‌‌🇸‌‌🇦‌•‌🇸‌‌🇭‌‌🇦‌‌🇷‌‌🇪‌
-
-┏━━━━━━━━━━━━━━━━━━
-┃  *⎙ MENYEDIAKAN ⎙*
-┃     *JASA SHARE*
-┃▰▰▰▰▰▰▰▰▰▰▰▰▰▰
-┃      *50 GRUP*
-┃• *1X SHARE : 300P*
-┃• *3X SHARE : 700P*
-┃• *4X SHARE : 900P*
-┃▰▰▰▰▰▰▰▰▰▰▰▰▰▰
-┃      *100 GRUP*
-┃• *1X SHARE : 1000*
-┃• *2X SHARE : 1.400*
-┃• *3X SHARE : 1.900*
-┃▰▰▰▰▰▰▰▰▰▰▰▰▰▰
-┃      *200 GRUP*
-┃• *1X SHARE : 2.200*
-┃• *2X SHARE : 2.300*
-┃• *3X SHARE : 2.500*
-┃• *5X SHARE : 2.700*
-┃▰▰▰▰▰▰▰▰▰▰▰▰▰▰
-┃     *300 GRUP*
-┃• *1X SHARE : 2.500*
-┃• *2X SHARE : 2.900*
-┃• *3X SHARE : 3.100*
-┗━━━━━━━━━━━━━━━━━━━
-
-
-*DIJAMIN NGALIRRRR POLL🤖*
-🗣️ : *ADA TESTI GK BG*
-👤 : *TESTI JIBUN POKOKNYA  DIJAMIN NGALIRR*🤑
-*▰▰▰▰▰▰▰▰▰▰▰▰▰*
-
-
-*⎙ PAKET PERJAM ⎙*
-*[ 2JAM 6K 200GRUB ]*
-*[ 3JAM 13K 330 GRUB ]*
-*[ 5JAM 20K 450 GRUB ]*
-
-*JEDA UNTUK PERJAM HANYA 5MENIT 4×SHARE UNTUK 1JAM*
-
-
-*PAKET PERHARI*
-
-*1HARI = 10K*
-*2HARI = 18K*
-*3HARI = 25K*
-*4HARI = 34K*
-*5HARI = 40K*`
+• *1 Script = Rp. 10.000*
+• *2 Script = Rp. 20.000*
 teks =
 `「 ${botname} 」\n*${tanggal}*`
 but = [
